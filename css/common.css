@@ -1,0 +1,175 @@
+:root {
+  --bckrnd-clr-hdr: #FFFFFF;
+  --bckrnd-clr-ftr: #2F303A;
+  --accent-clr-elmnts: #2196F3;
+  --color-contacts: #757575;
+  --color-contacts-ftr: rgba(255, 255, 255, 0.6);
+  --tittle-clr-bold: #212121;
+  --tittle-wght-nrml: 400;
+  --tittle-wght-nrml2: 500;
+  --tittle-wght-bold: 700;
+  --tittle-wght-bol2: 900;
+  --font-fmly-logo: 'Raleway';
+
+}
+
+
+body {
+  background-color: #ffffff;
+  font-family: 'Roboto';
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+/* ---------------------------ШАПКА СТОРІНКИ */
+
+/* ЛОГОТИПЧИК ШАПКА */
+
+.logo-hdr {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.logo-hdr .logo-blue {
+  color: var(--accent-clr-elmnts);
+}
+
+/* НАВІГАЦІЯ САЙТОМ */
+
+.nav-links {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: var(--tittle-wght-nrml2);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--tittle-clr-bold);
+}
+
+.nav {
+  color: var(--tittle-clr-bold);
+}
+
+.nav-links .nav:focus,
+.nav-links .nav:hover {
+  color: var(--accent-clr-elmnts)
+}
+
+.nav-links .nav:active {
+  color: var(--accent-clr-elmnts)
+}
+
+/* КОНТАКТИ ШАПКА */
+
+.contacts {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: var(--tittle-wght-nrml2);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+/* email */
+.contacts .mail {
+  color: var(--color-contacts);
+}
+
+.contacts .mail:focus,
+.contacts .mail:hover {
+  color: var(--accent-clr-elmnts)
+}
+
+.contacts .mail:active {
+  color: var(--accent-clr-elmnts)
+}
+
+/* tel */
+.contacts .tel {
+  color: var(--color-contacts);
+}
+
+.contacts .tel:focus,
+.contacts .tel:hover {
+  color: var(--accent-clr-elmnts)
+}
+
+.contacts .tel:active {
+  color: var(--accent-clr-elmnts)
+}
+
+
+/* ---------------------------ОСНОВНА ЧАСТИНА */
+
+
+/* ---------------------------ПІДВАЛ СТОРІНКИ */
+
+/* ЛОГОТИПЧИК ФУТЕР */
+
+.logo-ftr {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+
+.logo-ftr .logo-blue {
+  color: var(--accent-clr-elmnts);
+}
+
+/* КОНТАКТИ ФУТЕР */
+
+.contacts-ftr {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: var(--tittle-wght-nrml);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+/* address footer */
+.contacts-ftr .address {
+  color: #FFFFFF
+}
+
+/* email footer */
+.contacts-ftr .mail-ftr {
+  color: var(--color-contacts-ftr);
+}
+
+.contacts-ftr .mail-ftr:focus,
+.contacts-ftr .mail-ftr:hover {
+  color: var(--accent-clr-elmnts)
+}
+
+.contacts-ftr .mail-ftr:active {
+  color: var(--accent-clr-elmnts)
+}
+
+/* tel footer */
+.contacts-ftr .tel-ftr {
+  color: var(--color-contacts-ftr);
+}
+
+.contacts-ftr .tel-ftr:focus,
+.contacts-ftr .tel-ftr:hover {
+  color: var(--accent-clr-elmnts)
+}
+
+.contacts-ftr .tel-ftr:active {
+  color: var(--accent-clr-elmnts)
+}
