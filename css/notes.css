@@ -59,6 +59,21 @@ text-transform: uppercase;
 color: #FFFFFF;
  */
 
+/* КНОПКА ТЕКСТ
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+* identical to box height, or 188% *
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+*/
+
+/* КНОПКА ФОРМА
+ */
+
 /* ЕЛ ПОШТА ШАПКА
 font-family: 'Roboto';
 font-style: normal;
@@ -79,7 +94,7 @@ letter-spacing: 0.02em;
 color: #757575;
  */
 
-/* ОСОБЛИВОСТІ ЗАГОЛОВОК
+/* ОСОБЛИВОСТІ ЗАГОЛОВКИ
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -99,6 +114,17 @@ line-height: 24px;
 * or 171% *
 letter-spacing: 0.03em;
 color: #757575;
+*/
+
+/* ЧИМ МИ ЗАЙМАЄМОСЬ 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
 */
 
 /* ІМЯ ПРАЦІВНИКА ШРИФТ

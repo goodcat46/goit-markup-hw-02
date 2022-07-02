@@ -2,17 +2,17 @@
   --bckrnd-clr-hdr: #FFFFFF;
   --bckrnd-clr-ftr: #2F303A;
   --accent-clr-elmnts: #2196F3;
+  --color-cpecls-text: #757575;
   --color-contacts: #757575;
   --color-contacts-ftr: rgba(255, 255, 255, 0.6);
   --tittle-clr-bold: #212121;
-  --tittle-wght-nrml: 400;
-  --tittle-wght-nrml2: 500;
+  --text-wght-nrml: 400;
+  --text-wght-nrml2: 500;
   --tittle-wght-bold: 700;
   --tittle-wght-bol2: 900;
   --font-fmly-logo: 'Raleway';
 
 }
-
 
 body {
   background-color: #ffffff;
@@ -31,7 +31,7 @@ a {
 /* ЛОГОТИПЧИК ШАПКА */
 
 .logo-hdr {
-  font-family: 'Raleway';
+  font-family: var(--font-fmly-logo);
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -117,7 +117,7 @@ a {
 /* ЛОГОТИПЧИК ФУТЕР */
 
 .logo-ftr {
-  font-family: 'Raleway';
+  font-family: var(--font-fmly-logo);
   font-style: normal;
   font-weight: 700;
   font-size: 26px;

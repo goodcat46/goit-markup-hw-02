@@ -2,5 +2,104 @@
 
 /* ---------------------------ОСНОВНА ЧАСТИНА */
 
-/* ---------------------------ПІДВАЛ СТОРІНКИ */
+/* ТЕКСТ ГЕРОЙ */
+.text-hero {
+font-style: normal;
+font-weight: var(--tittle-wght-bol2);
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
 
+/* ЗАМОВИТИ ПОСЛУГУ КНОПКА */
+.button {
+  background-color: var(--accent-clr-elmnts);
+  align-items: center;
+}
+.button .btn-text {
+    font-style: normal;
+    font-weight: var(--tittle-wght-bold);
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+/* ОСОБЛИВОСТІ */
+
+.spcls .spcls-tittles {
+  font-style: normal;
+  font-weight: var(--tittle-wght-bold);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--tittle-clr-bold);
+}
+.spcls .spcls-text {
+    font-style: normal;
+    font-weight: var(--text-wght-nrml);
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--color-cpecls-text);
+}
+
+/* ЧИМ МИ ЗАЙМАЄМОСЬ */
+
+.work-tittle {
+    font-style: normal;
+    font-weight: var(--tittle-wght-bold);
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--tittle-clr-bold);
+}
+/* НАША КОМАНДА */
+
+/* ІМЕНА ПРАЦІВНИКІВ */
+
+.worker .worker-name {
+  font-style: normal;
+  font-weight: var(--text-wght-nrml2);
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--tittle-clr-bold);
+}
+/* .worker .worker-name:focus,
+.worker .worker-name:hover {
+  color: var(--accent-clr-elmnts)
+} */
+
+/* ПОСАДИ ПРАЦІВНИКІВ */
+
+.worker .worker-position {
+    font-style: normal;
+    font-weight: var(--text-wght-nrml);
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-cpecls-text);
+}
+
+/* КАРТИ ЯК ПОСИЛАННЯ 
+.card-links a:focus,
+.card-links a:hover {
+  color: var(--accent-clr-elmnts)
+}
+
+.card-links a:active {
+  color: var(--accent-clr-elmnts)
+}
+*/
+
+
+/* ---------------------------ПІДВАЛ СТОРІНКИ */
