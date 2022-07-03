@@ -99,11 +99,16 @@
   line-height: 1.2x;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--color-text-primary);
 }
 
-/* КАРТИ ЯК ПОСИЛАННЯ  */
+
+
+/* КАРТИ ЯК ПОСИЛАННЯ. ефекти ХОВЕР і ФОКУС не змінюють кольору текстів  */
+
 .wrkr-card .card:focus,
 .wrkr-card .card:hover {
+  background-color: #e63434;
   color: var(--accent-clr-elmnts)
 }
 .wrkr-card .card:active {

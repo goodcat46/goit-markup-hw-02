@@ -2,6 +2,7 @@
   --bckrnd-clr-hdr: #FFFFFF;
   --bckrnd-clr-ftr: #2F303A;
   --bckrnd-clr-hero: #2F303A;
+  --bckrnd-clr-comnd: #F5F4FA;
   --accent-clr-elmnts: #2196F3;
   --clr-btns-accent: #2196F3;
   --clr-btns-nrml: #F5F4FA;
@@ -24,6 +25,9 @@ body {
 .footer-bckrgnd-clr {
   background-color: var(--bckrnd-clr-ftr);
 }
+.comnd-bckrgnd-clr {
+  background-color: var(--bckrnd-clr-comnd);
+}
 
 ul {
   list-style: none;
@@ -31,6 +35,12 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.test-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 /* ---------------------------ШАПКА СТОРІНКИ */
 
