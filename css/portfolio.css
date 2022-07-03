@@ -6,14 +6,16 @@
 
 /* КНОПКИ ФІЛЬТР */
 
-.btns-fltr {
-  display: flex;
-  -ms-flex-direction: row;
-}
 .btns-fltr .btn-f {
   background-color: var(--clr-btns-nrml);
   color: var(--tittle-clr-bold);
+
+  /* НЕ ПРАЦЮЄ ТОВЩИНА 500 жодним методом але працювало. 
+  на наваігаційних посилання працює. 
+  і на кнопці "замовити послугу" працює. Візуально ефекту немає */
   font-weight: var(--text-wght-nrml2);
+  font-weight: 500;
+  
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
@@ -30,6 +32,17 @@
 
 /* РОЗКЛАДКА РОБІТ */
 
+.portf-card .p-card-tittle {
+  color: var(--tittle-clr-bold);
+  font-weight: var(--tittle-wght-bold);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 
-
+}
+.portf-card .p-card-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
 /* ------------------------ПІДВАЛ СТОРІНКИ portfolio */
