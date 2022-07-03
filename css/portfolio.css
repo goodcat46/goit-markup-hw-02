@@ -15,7 +15,7 @@
   і на кнопці "замовити послугу" працює. Візуально ефекту немає */
   font-weight: var(--text-wght-nrml2);
   font-weight: 500;
-  
+
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
@@ -24,6 +24,7 @@
   border-radius: 4px;
   cursor: pointer;
 }
+
 .btns-fltr .btn-f:focus,
 .btns-fltr .btn-f:hover {
   background-color: var(--clr-btns-accent);
@@ -38,9 +39,9 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-
 }
 .portf-card .p-card-text {
+  color: var(--color-text-primary);
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
