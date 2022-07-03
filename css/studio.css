@@ -4,30 +4,46 @@
 
 /* ----------ГЕРОЙ */
 
+/* ФОН ГЕРОЙ */
+.hero {
+  background-color: var(--bckrnd-clr-hero);
+}
 /* ТЕКСТ ГЕРОЙ */
-.text-hero {
-font-weight: var(--tittle-wght-bol2);
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: #FFFFFF;
+.hero .text-hero {
+  font-weight: var(--tittle-wght-bol2);
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 /* ЗАМОВИТИ ПОСЛУГУ КНОПКА */
 .button {
-  background-color: var(--accent-clr-elmnts);
+  font-weight: var(--tittle-wght-bold);
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
   align-items: center;
+  border-style: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
-.button .btn-text {
-    font-weight: var(--tittle-wght-bold);
-    font-size: 16px;
-    line-height: 1.88;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
+.button:focus,
+.button:hover {
+  background-color: var(--clr-btns-accent);
 }
+/* .button .btn-text {
+  font-weight: var(--tittle-wght-bold);
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+} */
 
 /* ----------ОСОБЛИВОСТІ */
 
@@ -40,31 +56,29 @@ color: #FFFFFF;
   color: var(--tittle-clr-bold);
 }
 .spcls .spcls-text {
-    font-weight: var(--text-wght-nrml);
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: var(--color-cpecls-text);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 /* ----------ЧИМ МИ ЗАЙМАЄМОСЬ */
 
 .work-tittle {
-    font-weight: var(--tittle-wght-bold);
-    font-size: 36px;
-    line-height: 1.7;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--tittle-clr-bold);
+  font-weight: var(--tittle-wght-bold);
+  font-size: 36px;
+  line-height: 1.7;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--tittle-clr-bold);
 }
 /* ----------НАША КОМАНДА */
 .comnd-tittle {
-    font-weight: var(--tittle-wght-bold);
-    font-size: 36px;
-    line-height: 1.7;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--tittle-clr-bold);
+  font-weight: var(--tittle-wght-bold);
+  font-size: 36px;
+  line-height: 1.7;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--tittle-clr-bold);
 }
 
 /* ІМЕНА ПРАЦІВНИКІВ */
@@ -81,12 +95,10 @@ color: #FFFFFF;
 /* ПОСАДИ ПРАЦІВНИКІВ */
 
 .wrkr-card .wrkr-position {
-    font-weight: var(--text-wght-nrml);
-    font-size: 16px;
-    line-height: 1.2x;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--color-cpecls-text);
+  font-size: 16px;
+  line-height: 1.2x;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* КАРТИ ЯК ПОСИЛАННЯ  */

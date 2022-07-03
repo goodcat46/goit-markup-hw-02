@@ -1,10 +1,12 @@
 :root {
   --bckrnd-clr-hdr: #FFFFFF;
   --bckrnd-clr-ftr: #2F303A;
+  --bckrnd-clr-hero: #2F303A;
   --accent-clr-elmnts: #2196F3;
-  --color-cpecls-text: #757575;
-  --color-contacts: #757575;
+  --clr-btns-accent: #2196F3;
+  --clr-btns-nrml: #F5F4FA;
   --color-contacts-ftr: rgba(255, 255, 255, 0.6);
+  --color-text-primary: #757575;
   --tittle-clr-bold: #212121;
   --text-wght-nrml: 400;
   --text-wght-nrml2: 500;
@@ -17,6 +19,10 @@
 body {
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
+  color: #757575;
+}
+.footer-bckrgnd-clr {
+  background-color: var(--bckrnd-clr-ftr);
 }
 
 ul {
@@ -46,7 +52,7 @@ a {
 /* НАВІГАЦІЯ САЙТОМ */
 
 .nav-links {
-  font-weight: var(--tittle-wght-nrml2);
+  font-weight: var(--text-wght-nrml2);
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -69,15 +75,16 @@ a {
 /* КОНТАКТИ ШАПКА */
 
 .contacts {
-  font-weight: var(--tittle-wght-nrml2);
+  font-weight: var(--text-wght-nrml2);
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: var(--color-text-primary);
 }
 
 /* email */
 .contacts .mail {
-  color: var(--color-contacts);
+  color: var(--color-text-primary);
 }
 
 .contacts .mail:focus,
@@ -127,30 +134,33 @@ a {
 /* КОНТАКТИ ФУТЕР */
 
 .contacts-ftr {
-  font-weight: var(--tittle-wght-nrml);
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
 
 /* address footer */
-.contacts-ftr {
-  font-style: normal;
-}
+
 .contacts-ftr .address {
   color: #FFFFFF
+}
+.contacts-ftr .address:focus,
+.contacts-ftr .address:hover {
+  color: var(--accent-clr-elmnts)
+}
+.contacts-ftr .address:active {
+  color: var(--accent-clr-elmnts)
 }
 
 /* email footer */
 .contacts-ftr .mail-ftr {
   color: var(--color-contacts-ftr);
 }
-
 .contacts-ftr .mail-ftr:focus,
 .contacts-ftr .mail-ftr:hover {
   color: var(--accent-clr-elmnts)
 }
-
 .contacts-ftr .mail-ftr:active {
   color: var(--accent-clr-elmnts)
 }
@@ -159,12 +169,10 @@ a {
 .contacts-ftr .tel-ftr {
   color: var(--color-contacts-ftr);
 }
-
 .contacts-ftr .tel-ftr:focus,
 .contacts-ftr .tel-ftr:hover {
   color: var(--accent-clr-elmnts)
 }
-
 .contacts-ftr .tel-ftr:active {
   color: var(--accent-clr-elmnts)
 }

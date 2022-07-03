@@ -1,5 +1,33 @@
-/* ШАПКА СТОРІНКИ portfolio */
+/* ------------------------ШАПКА СТОРІНКИ portfolio */
 
-/* ОСНОВНА ЧАСТИНА portfolio */
+/* ------------------------ОСНОВНА ЧАСТИНА portfolio */
 
-/* ПІДВАЛ СТОРІНКИ portfolio */
+/* ---------------ФІЛЬТР */
+
+/* КНОПКИ ФІЛЬТР */
+
+.btns-fltr {
+  display: flex;
+  -ms-flex-direction: row;
+}
+.btns-fltr .btn-f {
+  background-color: var(--clr-btns-nrml);
+  color: var(--tittle-clr-bold);
+  font-weight: var(--text-wght-nrml2);
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border-style: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btns-fltr .btn-f:focus,
+.btns-fltr .btn-f:hover {
+  background-color: var(--clr-btns-accent);
+  color: #ffffff;
+}
+
+
+
+/* ------------------------ПІДВАЛ СТОРІНКИ portfolio */
