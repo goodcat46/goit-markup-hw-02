@@ -10,13 +10,13 @@
   --text-wght-nrml2: 500;
   --tittle-wght-bold: 700;
   --tittle-wght-bol2: 900;
-  --font-fmly-logo: 'Raleway';
+  --font-fmly-logo: 'Raleway', sans-serif;
 
 }
 
 body {
   background-color: #ffffff;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -32,10 +32,9 @@ a {
 
 .logo-hdr {
   font-family: var(--font-fmly-logo);
-  font-style: normal;
-  font-weight: 700;
+  font-weight: var(--tittle-wght-bold);
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: #000000;
 }
@@ -47,11 +46,9 @@ a {
 /* НАВІГАЦІЯ САЙТОМ */
 
 .nav-links {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: var(--tittle-wght-nrml2);
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--tittle-clr-bold);
 }
@@ -72,11 +69,9 @@ a {
 /* КОНТАКТИ ШАПКА */
 
 .contacts {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: var(--tittle-wght-nrml2);
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -118,10 +113,9 @@ a {
 
 .logo-ftr {
   font-family: var(--font-fmly-logo);
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: #FFFFFF;
 }
@@ -133,15 +127,16 @@ a {
 /* КОНТАКТИ ФУТЕР */
 
 .contacts-ftr {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: var(--tittle-wght-nrml);
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
 }
 
 /* address footer */
+.contacts-ftr {
+  font-style: normal;
+}
 .contacts-ftr .address {
   color: #FFFFFF
 }
