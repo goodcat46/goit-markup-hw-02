@@ -73,6 +73,10 @@ a {
   color: var(--tittle-clr-bold);
 }
 
+.nav-links .nav.nav-current {
+  color: var(--accent-clr-elmnts);
+}
+
 .nav-links .nav:focus,
 .nav-links .nav:hover {
   color: var(--accent-clr-elmnts)
