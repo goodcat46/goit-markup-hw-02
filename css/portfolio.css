@@ -6,7 +6,7 @@
 
 /* КНОПКИ ФІЛЬТР */
 
-.btns-fltr .btn-f {
+.btn-filtr {
   background-color: var(--clr-btns-nrml);
   color: var(--tittle-clr-bold);
 
@@ -19,17 +19,23 @@
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
-  letter-spacing: 0.03em;
   border-style: none;
   border-radius: 4px;
   cursor: pointer;
 }
 
-.btns-fltr .btn-f:focus,
-.btns-fltr .btn-f:hover {
+.btn-filtr:focus,
+.btn-filtr:hover {
   background-color: var(--clr-btns-accent);
   color: #ffffff;
 }
+
+.btn-filtr-current {
+  background-color: var(--clr-btns-accent);
+  color: #ffffff;
+
+}
+
 
 /* РОЗКЛАДКА РОБІТ */
 
@@ -44,6 +50,5 @@
   color: var(--color-text-primary);
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
 }
 /* ------------------------ПІДВАЛ СТОРІНКИ portfolio */

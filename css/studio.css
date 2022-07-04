@@ -2,11 +2,19 @@
 
 /* ---------------------------ОСНОВНА ЧАСТИНА */
 
+/* ----------ЗАГОЛОВКИ СЕКЦІЙ */
+.section-tittle {
+  font-weight: var(--tittle-wght-bold);
+  font-size: 36px;
+  line-height: 1.7;
+  text-align: center;
+  color: var(--tittle-clr-bold);
+}
 /* ----------ГЕРОЙ */
 
 /* ФОН ГЕРОЙ */
 .hero {
-  background-color: var(--bckrnd-clr-hero);
+  background-color: #2F303A;
 }
 /* ТЕКСТ ГЕРОЙ */
 .hero .text-hero {
@@ -47,39 +55,18 @@
 
 /* ----------ОСОБЛИВОСТІ */
 
-.spcls .spcls-tittles {
+.spcls-tittles {
   font-weight: var(--tittle-wght-bold);
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--tittle-clr-bold);
 }
-.spcls .spcls-text {
-  font-size: 14px;
+.spcls-text {
   line-height: 1.7;
-  letter-spacing: 0.03em;
 }
 
-/* ----------ЧИМ МИ ЗАЙМАЄМОСЬ */
-
-.work-tittle {
-  font-weight: var(--tittle-wght-bold);
-  font-size: 36px;
-  line-height: 1.7;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--tittle-clr-bold);
-}
 /* ----------НАША КОМАНДА */
-.comnd-tittle {
-  font-weight: var(--tittle-wght-bold);
-  font-size: 36px;
-  line-height: 1.7;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--tittle-clr-bold);
-}
 
 /* ІМЕНА ПРАЦІВНИКІВ */
 .wrkr-card .wrkr-name {
@@ -87,22 +74,17 @@
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--tittle-clr-bold);
-  
 }
 
 /* ПОСАДИ ПРАЦІВНИКІВ */
 
 .wrkr-card .wrkr-position {
   font-size: 16px;
-  line-height: 1.2x;
+  line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--color-text-primary);
 }
-
-
 
 /* КАРТИ ЯК ПОСИЛАННЯ. ефекти ХОВЕР і ФОКУС не змінюють кольору текстів  */
 
