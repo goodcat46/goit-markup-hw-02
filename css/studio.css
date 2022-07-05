@@ -68,6 +68,11 @@
 
 /* ----------НАША КОМАНДА */
 
+.card-bckrnd {
+  background-color: #fff;
+  width: 270px;
+}
+
 /* ІМЕНА ПРАЦІВНИКІВ */
 .wrkr-card .wrkr-name {
   font-weight: var(--text-wght-nrml2);
